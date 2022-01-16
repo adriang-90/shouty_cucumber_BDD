@@ -1,0 +1,24 @@
+{
+  "name": "shouty_cucumber_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriang-90/shouty_cucumber_BDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriang-90/shouty_cucumber_BDD/issues"
+  },
+  "homepage": "https://github.com/adriang-90/shouty_cucumber_BDD#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "hamjest": "^3.7.3"
+  }
+}
