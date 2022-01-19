@@ -3,3 +3,8 @@ Feature: Hear shout
     Given Lucy is located 15 meters from Sean
     When Sean shouts "Free bagels at Sean's"
     Then Lucy hears Sean's message 
+
+  Scenario: Listener hears different message
+    Given Lucy is located 15 meters from Sean
+    When Sean shouts "Free coffee!"
+    Then Lucy hears Sean's message
